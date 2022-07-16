@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{68440662-AAFB-4C71-B1F6-9BFD529C829D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{58F8B6DA-FC22-4662-A432-04782F099868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F8B6DA-FC22-4662-A432-04782F099868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F8B6DA-FC22-4662-A432-04782F099868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F8B6DA-FC22-4662-A432-04782F099868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F8B6DA-FC22-4662-A432-04782F099868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{68440662-AAFB-4C71-B1F6-9BFD529C829D} = {CE9E59AC-B931-43F2-9F09-39BA9C45B04C}
 		{4AD60FC0-77FC-4EA3-9519-EA5F5571DE53} = {66B943B8-2DB3-4C80-9277-4944486BEC03}
+		{58F8B6DA-FC22-4662-A432-04782F099868} = {0ABBC361-C258-41D7-99E3-8BB3BE8F4893}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {931E1713-CB6F-442C-A75E-0926F3E9881B}
