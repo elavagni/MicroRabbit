@@ -3,7 +3,7 @@ using MicroRabbit.Banking.Application.Models;
 using MicroRabbit.Banking.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MicroRabbit.Banking.Api
+namespace MicroRabbit.Banking.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
